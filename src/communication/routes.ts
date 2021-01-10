@@ -1,9 +1,10 @@
 import { Router } from 'express'
-import Business from '../../src/domain/application/pipedrive'
+import Operations from '../domain/application/operations'
+import Persistence from '../domain/application/persistence'
 
 const routes = Router();
 
-// Rota para teste de integração
-routes.get('/deals/:user_id', Business.execute);
+routes.get('/operations/:status', Operations.execute);
+routes.get('/persistence/', Persistence.execute);
 
 export { routes }
