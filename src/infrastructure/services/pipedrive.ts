@@ -6,8 +6,8 @@ require('dotenv').config()
 /* Integração com o serviço: Pipedrive */
 class Pipedrive {
 
-  private baseURL
-  private tokenAPI
+  private baseURL: string | undefined
+  private tokenAPI: string | undefined
 
   constructor() {
     this.baseURL = process.env.BASE_URL_PIPEDRIVE;

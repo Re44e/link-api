@@ -5,8 +5,8 @@ require('dotenv').config()
 /* Integração com o serviço: Bling */
 class Bling {
 
-  private baseURL
-  private tokenAPI
+  private baseURL: string | undefined
+  private tokenAPI: string | undefined
 
   constructor() {
     this.baseURL = process.env.BASE_URL_BLING
@@ -32,9 +32,9 @@ class Bling {
 
   }
 
-  public async getAllOrders(){
+  public async getAllOrders() {
     const params = Querystring.stringify({
-      apikey: this.tokenAPI
+      apikey: 'this.tokenAPI'
     });
 
     return fetch(`${this.baseURL}/pedidos/json?${params}`, {

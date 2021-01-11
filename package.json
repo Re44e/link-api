@@ -4,25 +4,29 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "tsnd --inspect --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+    "start": "tsnd --inspect --transpile-only --respawn --ignore-watch node_modules src/server.ts",
+    "test": "jest"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.9",
     "@types/express": "^4.17.7",
+    "@types/jest": "^26.0.20",
+    "@types/node-fetch": "^2.5.7",
     "@types/uuid": "^8.3.0",
+    "@types/xml2js": "^0.4.7",
     "ts-node-dev": "^1.0.0-pre.57",
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "@types/node-fetch": "^2.5.7",
-    "@types/xml2js": "^0.4.7",
     "axios": "^0.21.1",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "jest": "^26.6.3",
     "mongoose": "^5.11.10",
     "node-fetch": "^2.6.1",
     "query-string": "^6.13.8",
-    "uuid": "^8.3.0",
+    "ts-jest": "^26.4.4",
     "xml2js": "^0.4.23",
     "yarn": "^1.22.10"
   }

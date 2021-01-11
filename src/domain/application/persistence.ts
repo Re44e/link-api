@@ -9,7 +9,7 @@ class Persistence {
       const orders = await Bling.getAllOrders();
       
       // Operação para armazenar os pedidos na base de dados.
-      await Repositories.saveOrders(orders);
+      //await Repositories.saveOrders(orders);
 
       return res.status(200).json({ message: "Operação realizada com sucesso..." });
     } catch (error) {
