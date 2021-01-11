@@ -17,12 +17,15 @@ Install the dependencies:
 ```zsh
   root@ npm install
 ```
-Run project:
-```zsh
-  root@ npm start
-```
+
 Run tests:
 ```zsh
   root@ npm tests
 ```
+
+Run project:
+```zsh
+  root@ npm start
+```
+
 
