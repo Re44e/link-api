@@ -1,5 +1,5 @@
-import fetch from 'node-fetch';
-import Querystring from 'query-string';
+import fetch from 'node-fetch'
+import Querystring from 'query-string'
 import { IdealsDTO } from '../../domain/interfaces/deals.DTO'
 require('dotenv').config()
 
@@ -15,19 +15,19 @@ class Pipedrive {
   }
 
   public async getAllDealsByStatus(status: string) {
-
     const params = Querystring.stringify({
       api_token: this.tokenAPI,
-      status: 'won'
+      status: status
     });
+
     return fetch(`${this.baseURL}?${params}`, {
       method: 'get',
       headers: {
         Accept: 'application/json',
       },
     }).then(async (data) => {
-      if (data.status === 200) {
 
+      if (data.status === 200) {
         const result = await data.json();
         let payload: IdealsDTO;
         let deals: any = [];

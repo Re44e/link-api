@@ -1,7 +1,6 @@
-import Parser from 'xml2js';
+import Parser from 'xml2js'
 
 export function xmlConverter(deals: any) {
-
   const builder = new Parser.Builder();
   let packageXml: any = [];
   let result;

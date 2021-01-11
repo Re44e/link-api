@@ -1,4 +1,3 @@
-import Bling from '../../infrastructure/services/bling'
 import Repositories from '../../infrastructure/standard/repositories/core'
 import { Request, Response } from 'express'
 class Query {

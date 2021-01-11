@@ -1,5 +1,5 @@
-import express from 'express';
-import compression from 'express';
+import express from 'express'
+import compression from 'express'
 import { routes } from './communication/routes'
 import cors from 'cors'
 

@@ -1,9 +1,9 @@
-import fetch from 'node-fetch';
-import Querystring from 'query-string';
+import fetch from 'node-fetch'
+import Querystring from 'query-string'
 require('dotenv').config()
 
 describe('Bling', () => {
-  it('Integration with Bling service: returns orders', async () => {
+  it('Integration with Bling service: returns orders.', async () => {
 
     const params = Querystring.stringify({
       apikey: process.env.BLING_KEY

@@ -1,9 +1,9 @@
-import fetch from 'node-fetch';
-import Querystring from 'query-string';
+import fetch from 'node-fetch'
+import Querystring from 'query-string'
 require('dotenv').config()
 
 describe('Pipedrive', () => {
-  it('Integration with Pipedrive service: returns deals with won status', async () => {
+  it('Integration with Pipedrive service: returns deals with won status.', async () => {
 
     const params = Querystring.stringify({
       api_token: process.env.PIPEDRIVE_KEY,

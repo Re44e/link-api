@@ -1,5 +1,5 @@
-import fetch from 'node-fetch';
-import Querystring from 'query-string';
+import fetch from 'node-fetch'
+import Querystring from 'query-string'
 require('dotenv').config()
 
 /* Integração com o serviço: Bling */
@@ -14,7 +14,6 @@ class Bling {
   }
 
   public async insertDeals(deal: any) {
-
     const params = Querystring.stringify({
       apikey: this.tokenAPI,
       xml: deal
