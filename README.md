@@ -21,7 +21,7 @@ Run project:
 ```zsh
   root@ npm start
 ```
-Run test:
+Run tests:
 ```zsh
   root@ npm tests
 ```
