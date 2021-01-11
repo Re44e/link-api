@@ -8,7 +8,7 @@ Data persistence in the MongoDB Atlas cloud service.
 
 **Technologies**
 
-Node.js TypeScript, Express.js, Mongoose, MongoDB Atlas, and Postman.
+Node.js TypeScript, Express.js, Jest, Mongoose, MongoDB Atlas, and Postman.
 
 #
 **Instructions for running the project**
@@ -17,8 +17,15 @@ Install the dependencies:
 ```zsh
   root@ npm install
 ```
+
+Run tests:
+```zsh
+  root@ npm tests
+```
+
 Run project:
 ```zsh
   root@ npm start
 ```
+
 
