@@ -23,6 +23,6 @@ Run project:
 ```
 Run test:
 ```zsh
-  root@ npm test
+  root@ npm tests
 ```
 
