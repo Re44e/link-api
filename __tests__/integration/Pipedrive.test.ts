@@ -9,18 +9,17 @@ describe('Pipedrive', () => {
       api_token: process.env.PIPEDRIVE_KEY,
       status: 'won'
     });
-    
+
     fetch(`${process.env.BASE_URL_BLING}?${params}`, {
       method: 'get',
       headers: {
         Accept: 'application/json',
       },
     }).then(async (data) => {
-  
       if (data.status === 200) {
         expect(data.status).toBe(200);
       }
     })
   });
-  
+
 });

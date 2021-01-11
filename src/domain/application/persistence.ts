@@ -4,7 +4,6 @@ import { Request, Response } from 'express'
 class Persistence {
   execute = async (req: Request, res: Response): Promise<Response> => {
     try {
-      
       // Operação para obter os pedidos armazenados no Bling.
       const orders = await Bling.getAllOrders();
       
