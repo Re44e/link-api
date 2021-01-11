@@ -13,6 +13,8 @@ Node.js TypeScript, Express.js, Jest, Mongoose, MongoDB Atlas, and Postman.
 #
 **Instructions for running the project**
 
+Note: You must create an .env file with the environment variables described in the env.example file.
+
 Install the dependencies:
 ```zsh
   root@ npm install
