@@ -13,7 +13,7 @@ class Bling {
     this.tokenAPI = process.env.BLING_KEY
   }
 
-  public async registerDeals(deal: any) {
+  public async insertDeals(deal: any) {
 
     const params = Querystring.stringify({
       apikey: this.tokenAPI,
