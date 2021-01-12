@@ -8,7 +8,7 @@ Data persistence in the MongoDB Atlas cloud service.
 
 **Technologies**
 
-Node.js TypeScript, Express.js, Jest, Mongoose, MongoDB Atlas, and Postman.
+Node.js TypeScript Express.js Jest Mongoose MongoDB Atlas Postman
 
 #
 **Instructions for running the project**
