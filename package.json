@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "tsnd --inspect --transpile-only --respawn --ignore-watch node_modules src/server.ts",
-    "test": "jest"
+    "tests": "jest"
   },
   "devDependencies": {
     "@types/cors": "^2.8.9",
