@@ -1,6 +1,7 @@
 import Bling from '../../infrastructure/services/bling'
 import Repositories from '../../infrastructure/standard/repositories/core'
 import { Request, Response } from 'express'
+
 class Persistence {
   execute = async (req: Request, res: Response): Promise<Response> => {
     try {
@@ -16,4 +17,5 @@ class Persistence {
     }
   }
 }
+
 export default new Persistence();
