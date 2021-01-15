@@ -1,5 +1,6 @@
 import Repositories from '../../infrastructure/standard/repositories/core'
 import { Request, Response } from 'express'
+
 class Query {
 
   execute = async (req: Request, res: Response): Promise<Response> => {
@@ -11,4 +12,5 @@ class Query {
     }
   }
 }
+
 export default new Query();
