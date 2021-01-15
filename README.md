@@ -15,19 +15,17 @@ Node.js TypeScript Express.js Jest Mongoose MongoDB Atlas Postman
 
 Note: You must create an .env file with the environment variables described in the env.example file.
 
-Install the dependencies:
+
 ```zsh
-  root@ npm install
+  Install the dependencies: root@ npm install
 ```
 
-Run tests:
 ```zsh
-  root@ npm tests
+  Run tests: root@ npm tests
 ```
 
-Run project:
 ```zsh
-  root@ npm start
+  Run project: root@ npm start
 ```
 
 
