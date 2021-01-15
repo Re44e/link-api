@@ -17,15 +17,15 @@ Note: You must create an .env file with the environment variables described in t
 
 
 ```zsh
-  Install the dependencies: root@ npm install
+  Install the dependencies: $ npm install
 ```
 
 ```zsh
-  Run tests: root@ npm tests
+  Run the tests: $ npm tests
 ```
 
 ```zsh
-  Run project: root@ npm start
+  Then run the project: $ npm start
 ```
 
 
