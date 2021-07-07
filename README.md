@@ -1,4 +1,4 @@
-<h3>Technical test promoted by the company: LinkApi</h3>
+<h3>Technical challenge LinkApi</h3>
 
 #
 **Overview**
